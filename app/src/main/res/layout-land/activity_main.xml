@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_weight="0.1666"
+            android:layout_height="0dp">
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_weight="0.1666"
+            android:layout_height="0dp">
+            <Button
+                android:textAllCaps="false"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="05dp"
+                android:layout_marginBottom="05dp"
+                android:onClick="onClickJugar"
+                android:layout_marginRight="40dp"
+                android:background="@drawable/button_redondeado"
+                android:text="@string/Jugar"
+                android:textColor="@color/colorBlanco">
+            </Button>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_weight="0.1666"
+            android:layout_height="0dp">
+            <Button
+                android:textAllCaps="false"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="10dp"
+                android:onClick="onClickVerPuntaje"
+                android:layout_marginRight="40dp"
+                android:background="@drawable/button_redondeado"
+                android:text="@string/VerPuntaje"
+                android:textColor="@color/colorBlanco">
+            </Button>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_weight="0.1666"
+            android:layout_height="0dp">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="40dp"
+                android:onClick="onClickVerRespuestaCorrecta"
+                android:layout_marginTop="10dp"
+                android:textAllCaps="false"
+                android:layout_marginRight="40dp"
+                android:background="@drawable/button_redondeado"
+                android:text="@string/VerRepuestaCorrecta"
+                android:textColor="@color/colorBlanco">
+            </Button>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_weight="0.1666"
+            android:layout_height="0dp">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="10dp"
+                android:onClick="onClickVerModificar"
+                android:textAllCaps="false"
+                android:layout_marginRight="40dp"
+                android:background="@drawable/button_redondeado"
+                android:text="@string/CambiarJug"
+                android:textColor="@color/colorBlanco">
+            </Button>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_weight="0.1666"
+            android:layout_height="0dp">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="10dp"
+                android:onClick="onClickDatos"
+                android:textAllCaps="false"
+                android:layout_marginRight="40dp"
+                android:background="@drawable/button_redondeado"
+                android:text="@string/Datos"
+                android:textColor="@color/colorBlanco">
+            </Button>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_weight="0.1666"
+            android:layout_height="0dp">
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Guia7Persistencia</string>
+    <string name="Adiv">Adivinar</string>
+
+
+    <!--Menu!-->
+    <string name="Jugar">Jugar</string>
+    <string name="M">Menú</string>
+    <string name="VerPuntaje">Ver Puntaje</string>
+    <string name="VerRepuestaCorrecta">Ver Repuesta Correcta</string>
+    <string name="Datos">Mis Datos</string>
+    <string name="CambiarJug">Modificar Jugador</string>
+
+    <!--Datos!-->
+    <string name="codigo">RV16-I04-001</string>
+    <string name="nombre">Johana Abigail Ramirez Vides</string>
+    <string name="correlativo">02</string>
+    <string name="ac">AC</string>
+
+
+    <!--Juego!-->
+    <string name="nombreJugador">Jugador</string>
+    <string name="lblPista">Pista</string>
+    <string name="Puntaje">Puntaje</string>
+    <string name="lblMenor">El número debe ser menor</string>
+    <string name="lblMayor">El número debe ser mayor</string>
+    <string name="PuntajeInicio">10</string>
+    <string name="Adivina">Adivina la respuesta correcta</string>
+    <string name="IngreseunNumero">Ingrese un número [1 - 10]</string>
+    <string name="numeroIntentos">Número de intentos</string>
+    <string name="num">0</string>
+
+    <!--Ver Respuesta Correcta!-->
+    <string name="RespuestaC">Respuesta Correcta</string>
+
+    <!--Ver Puntaje!-->
+    <string name="Jugador">Jugador</string>
+    <string name="nombreJug">Johana Ramirez</string>
+
+    <!--Modificar!-->
+    <string name="Modificar">Ingrese el nombre del jugador</string>
+    <string name="Guardar">Guardar</string>
+</resources>
